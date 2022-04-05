@@ -1,0 +1,4 @@
+let name = "Том";
+let result = (name == 'sasha' || name == 'Sasha' || name == 'Саша' || name == 'саша') ? console.log ("Это самое красивое имя на свете!"):
+    (name.length > 6) ? console.log("У вас довольно длинное имя!"):
+    (name.length < 6 && name.length > 3) ? console.log("Это хорошее имя!") : console.log("Какое у вас короткое имя!");
